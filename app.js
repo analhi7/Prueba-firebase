@@ -69,7 +69,6 @@ const welcome = () => {
     const content= document.getElementById('content')
     content.innerHTML = `
     <p> Holiwis my friend<p>
-    
    `
 }
 
@@ -98,4 +97,7 @@ user.sendEmailVerification().then(function() {
   // An error happened.
 });
 
-}
+};
+
+
+
